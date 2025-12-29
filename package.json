@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon Back-End/app.js",
     "build":"npm install && npm install --prefix client && npm run build --prefix client",
-    "start":"nodemon Back-End/app.js"
+    "start":"node Back-End/app.js"
   },
   "keywords": [],
   "author": "",

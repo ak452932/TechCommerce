@@ -1,0 +1,61 @@
+:root {
+  --hero-btn-bg: #ffffff;
+  --hero-btn-text: #4f46e5;
+}
+
+.hero {
+  background-image: url('https://www.shutterstock.com/image-photo/businessmen-who-fail-work-boss-260nw-1498916951.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 6rem 1rem;
+  text-align: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #e0f3ff;
+}
+
+.hero-content button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--hero-btn-bg);
+  color: var(--hero-btn-text);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #e6f1ff;
+  transform: translateY(-2px);
+}

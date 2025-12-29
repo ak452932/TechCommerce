@@ -1,0 +1,15 @@
+.login-wrapper {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.login-card input::placeholder {
+  font-style: italic;
+  color: #999;
+}

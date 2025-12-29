@@ -1,0 +1,9 @@
+.job-card {
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease;
+  border-left: 4px solid #0d6efd;
+}
+.job-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.75rem 1.5rem rgba(13, 110, 253, 0.2);
+  border-left-color: #6610f2;
+}

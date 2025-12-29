@@ -1,0 +1,17 @@
+.features-section {
+  background-color: #f8f9fa;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.emoji {
+  font-size: 2rem;
+}

@@ -1,0 +1,65 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img-fluid {
+  border-radius: 8px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #28a745;
+}
+
+h4, h5 {
+  font-weight: 600;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.quantity-control button {
+  border: none;
+  background-color: #dee2e6;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quantity-control span {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.total-box {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.btn-outline-dark {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+}

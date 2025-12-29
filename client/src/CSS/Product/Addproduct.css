@@ -1,0 +1,39 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.img-container {
+  height: 150px;
+  overflow: hidden;
+}
+
+.product-img {
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+.card-title,
+.card-text {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Ensure edit inputs are full-width
+.card-body textarea {
+  border-radius: 10px;
+  margin: 500px;
+  padding: 100px;
+} */

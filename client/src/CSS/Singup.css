@@ -1,0 +1,47 @@
+:root {
+  --primary-bg: #f0f7ff;
+  --card-bg: #ffffff;
+  --primary-color: #0066cc;
+  --accent-color: #e9f2ff;
+}
+
+.signup-wrapper {
+  background: linear-gradient(135deg, var(--primary-bg), #d6e9ff);
+  padding: 2rem;
+}
+
+.form-card {
+  background-color: var(--card-bg);
+  max-width: 450px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+input.form-control {
+  border: 1px solid #ccd7e4;
+  background-color: var(--accent-color);
+}
+
+input.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+  border-color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #004fa3;
+  border-color: #004fa3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}

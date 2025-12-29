@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #00468b;     /* Deep blue */
+  --accent-color: #f0f4ff;      /* Gentle off-white blue */
+  --text-main: #2c3e50;         /* Dark slate gray */
+  --text-light: #5a6e8c;
+  --card-bg: #ffffff;
+  --section-bg: #f7faff;
+  --highlight-color: #007aff;
+}
+
+.about-wrapper {
+  background-color: var(--accent-color);
+  padding: 3rem 1rem;
+  border-radius: 8px;
+}
+
+.about-wrapper h1,
+.about-wrapper h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.about-wrapper p {
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.hero-section {
+  background-color: var(--section-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 12px rgba(0, 70, 139, 0.08);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.values-grid div {
+  background-color: var(--card-bg);
+  border-left: 4px solid var(--primary-color);
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+  /* .card-body{
+    width: 200px;
+    height: 200px;
+  } */
+
+
+.team-section {
+  margin-top: 3rem;
+}
+
+.team-card {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+}
+
+.team-card img {
+  width: 50%;
+  height: 100px;
+  
+  border-radius: 10px 10px 0 0;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}

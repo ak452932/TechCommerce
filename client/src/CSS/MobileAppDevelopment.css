@@ -1,0 +1,45 @@
+.mobile-app-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.mobile-app-container h1,
+.mobile-app-container h2 {
+  color: #2c3e50;
+}
+
+.mobile-app-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.mobile-app-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mobile-app-form input,
+.mobile-app-form select,
+.mobile-app-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mobile-app-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mobile-app-form button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,62 @@
+/* navbar.css */
+
+.custom-navbar {
+  background: linear-gradient(to right, #ffffff, #eaf6ff);
+  padding: 0.8rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  border-bottom: 1px solid #d0e3f0;
+}
+
+.logo-img {
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin: 0 0.5rem;
+  color: #333 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.btn-outline-danger {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.status-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.status-box .battery,
+.status-box .clock {
+  line-height: 1.2;
+}
+
+@media (max-width: 992px) {
+  .nav-link, .btn-outline-danger {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  .status-box {
+    margin-top: 0.5rem;
+    align-items: center;
+  }
+}

@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #0056b3;
+  --bg-light: #f7fbff;
+  --input-bg: #eaf1fb;
+  --card-radius: 12px;
+}
+
+.admin-add-team-wrapper {
+  background: linear-gradient(135deg, var(--bg-light), #d6e9ff);
+  padding: 2rem;
+}
+
+.form-card {
+  background-color: #ffffff;
+  max-width: 480px;
+  width: 100%;
+  border-radius: var(--card-radius);
+}
+
+input.form-control {
+  background-color: var(--input-bg);
+  border: 1px solid #cddbee;
+}
+
+input.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+  border-color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #004095;
+}

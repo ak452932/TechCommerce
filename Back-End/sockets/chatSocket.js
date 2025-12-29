@@ -1,4 +1,4 @@
-const { generateReply, saveMessage } = require('../controllers/chatController');
+const { generateReply, saveMessage } = require('../Controllers/chatController');
 
 module.exports = (io) => {
   io.on('connection', (socket) => {
@@ -15,4 +15,5 @@ module.exports = (io) => {
       console.log('❌ User disconnected');
     });
   });
+
 };
